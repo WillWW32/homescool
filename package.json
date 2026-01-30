@@ -1,0 +1,38 @@
+{
+  "name": "homescool-academy",
+  "version": "0.1.0",
+  "private": true,
+  "description": "World-class creative arts education, AI-powered, personalized",
+  "author": "Jess",
+  "license": "UNLICENSED",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "db:migrate": "supabase db push",
+    "db:reset": "supabase db reset",
+    "sdk:build": "tsc -p sdk/tsconfig.json"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.0",
+    "clsx": "^2.1.0",
+    "lucide-react": "^0.263.1",
+    "next": "^14.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hot-toast": "^2.6.0",
+    "tailwindcss": "^3.4.1",
+    "zustand": "^4.4.7"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8",
+    "eslint-config-next": "^14.1.0",
+    "postcss": "^8.4.33",
+    "typescript": "^5"
+  }
+}
