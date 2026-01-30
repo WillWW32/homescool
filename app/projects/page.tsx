@@ -51,7 +51,6 @@ function ProjectsContent() {
     fetchProjects();
   }, [studentContext?.id]);
 
-export default function ProjectsPage() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white pb-20">
       <header className="bg-white border-b border-gray-200 px-6 py-4">
