@@ -89,6 +89,10 @@ export default function LoginPage() {
             </p>
           </div>
         </div>
+
+        <p className="mt-8 text-center text-xs text-gray-400">
+          <a href="https://www.divineparadox.org/websites" className="hover:underline">Design by Divine Paradox</a>
+        </p>
       </div>
     </div>
   );
