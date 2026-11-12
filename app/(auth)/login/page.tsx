@@ -93,6 +93,26 @@ export default function LoginPage() {
         <p className="mt-8 text-center text-xs text-gray-400">
           <a href="https://www.divineparadox.org/websites" className="hover:underline">Design by Divine Paradox</a>
         </p>
+        <div style={{ textAlign: 'center', padding: '14px 16px' }}>
+          <a
+            href="https://www.bigstarfish.com"
+            target="_blank"
+            rel="noopener"
+            style={{
+              display: 'inline-flex',
+              alignItems: 'center',
+              gap: 6,
+              font: '500 12px/1 system-ui,-apple-system,sans-serif',
+              color: 'inherit',
+              opacity: 0.7,
+              textDecoration: 'none'
+            }}
+          >
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src="https://www.bigstarfish.com/brand/starfish-coral.svg" alt="" width={14} height={14} style={{ display: 'block' }} />
+            Powered by BigStarfish
+          </a>
+        </div>
       </div>
     </div>
   );
